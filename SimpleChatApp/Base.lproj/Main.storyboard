@@ -51,10 +51,10 @@
                                 <rect key="frame" x="276" y="7" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="didClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VsZ-1W-PQr"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <action selector="didClickButton:" destination="BYZ-38-t0r" id="pQS-9n-i0W"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
